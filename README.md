@@ -26,7 +26,7 @@ This project is a **web-based chatbot application** designed to interact with us
 
 ### **1. Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/project.git
+git clone https://github.com/asmith0713/DomainChatbotForSMEs.git
 cd project
 ```
 
