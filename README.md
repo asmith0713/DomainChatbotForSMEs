@@ -22,6 +22,12 @@ This project is a **web-based chatbot application** designed to interact with us
 
 ---
 
+## Demo Video
+
+![Watch the video](https://drive.google.com/file/d/1RURB28vN4iV-p2y96dJJ_tq-VHsDmJ3B/view?usp=sharing)
+
+---
+
 ## 📥 **Installation**
 
 ### **1. Clone the repository:**
