@@ -24,7 +24,10 @@ This project is a **web-based chatbot application** designed to interact with us
 
 ## Demo Video
 
-[![Watch the video](https://img.youtube.com/vi/VxzFcsX-UoI/0.jpg)](https://www.youtube.com/watch?v=VxzFcsX-UoI)
+
+
+https://github.com/user-attachments/assets/c9cb80ed-d7bd-403f-b3f8-29e0233edb33
+
 
 ---
 
