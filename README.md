@@ -59,6 +59,24 @@ npm run dev
 - Switch themes using the **dropdown menu** in the chat header.
 
 ---
+---
+
+## 📖 **Notebook Details**
+
+The Jupyter notebook included in this project demonstrates the following:
+
+- **Dependencies Installation:** Installation of required libraries like PyMuPDF, faiss-gpu, transformers, pdfplumber, sentence-transformers, bitsandbytes, huggingface_hub, flask, flask-cors, and pyngrok.
+- **Library Imports and Authentication:** Importing necessary libraries and authenticating with Hugging Face Hub.
+- **Text Extraction from PDF:** Extracting text from a PDF document using pdfplumber.
+- **Text Chunking:** Splitting extracted text into manageable chunks.
+- **Embedding Generation:** Using the 'all-MiniLM-L6-v2' model from Sentence Transformers to generate embeddings for the text chunks.
+- **FAISS Index Creation:** Creating and populating a FAISS index with the generated embeddings.
+- **Model Loading and Quantization:** Loading and quantizing the 'Llama-3.1-8B-Instruct' model using BitsAndBytesConfig.
+- **Text Generation Pipeline:** Initializing a text generation pipeline with the quantized model.
+
+These techniques and models enable efficient processing and querying of large textual data, making the chatbot capable of handling domain-specific queries effectively. 
+
+---
 
 ## 🤝 **Contribution**
 
@@ -71,6 +89,12 @@ Contributed by our Project School Team(G227) of KMIT 🎉
 - [B Nareen Sai](https://github.com/Nareen20)
 - [C Sai Prathyun Gupta](https://github.com/Gupta-01)
 
+---
+## 🚧 **Limitations and Future Work**
+
+Due to limited resources, we were unable to fully train the model. Instead, we utilized BitsAndBytesConfig to load and use the model directly. Consequently, the accuracy of the generated answers may not be optimal. We welcome suggestions and contributions for further development and improvements to enhance the model's performance.
+
+Thank you for your understanding and support!
 ---
 
 Happy coding! 🚀😊
